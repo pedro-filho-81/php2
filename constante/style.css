@@ -1,0 +1,66 @@
+   @charset "UTF-8";
+   /* Regra charset caso haja problemas com acentuação */
+   
+   body {
+      background-color: rgb(61, 61, 226);
+      color: white;
+   }
+   h1, h2 {
+      text-align: center;
+   }
+   p, h3 {
+      font-size: 15pt;
+      margin-left: 80pt;
+      margin-right: 100pt;
+   }
+   b {
+      background-color: white;
+      color: rgb(255, 0, 191);
+   }
+   pre {
+      background-color: rgb(226, 221, 214);
+      color: blue;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15pt;
+      margin-left: 80pt;
+      margin-right: 100pt;
+   }
+   strong {
+      background-color: white;
+      color: black;
+   }
+   mark {
+      background-color: white;
+      color: red;
+   }
+   code {
+      background-color: yellow;
+      color: black;
+   }
+   table, th, td {
+      font-size: 13pt; /* tamanho da fonte*/
+      border: 1px solid black; /* adiciona borbda a tabela */
+      border-collapse: collapse; /* une as bordas da tabela */
+   }
+   caption {
+      background-color: yellow; /*coloca cor no fundo*/
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18pt; /* tamanho das letras */
+      color: black; /* coloca a cor das letras*/
+   }
+   th, td {
+      background-color: #b9dbdb;
+      color: black;
+      padding: 5px 5px 5px 5px;/*preenchimento das células*/
+      margin: 100%; /*usa 100% das margens*/
+   }
+   td.opera { /*modifica a classe na TABEL DATA*/
+      text-align: center; /*alinha o texto no centro da célula*/
+   }
+   li {
+      background-color: white;
+      color: black;
+      padding: 5pt 5pt 5pt 5pt;
+      margin-left: 50pt;
+      margin-right: 100pt;
+   }

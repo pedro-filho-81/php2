@@ -1,0 +1,92 @@
+
+   body {
+      font-size: 15pt;
+      background-color: rgb(61, 61, 226);
+      color: white;
+   }
+   h1, h2 {
+      text-align: center;
+   }
+
+   .exp {
+      text-align: left;
+      margin-left: 100px;
+      margin-right: 200px;
+   }
+   p, h3 {
+      text-align: justify;
+      font-family: Arial;
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+   pre {
+      background-color: white;
+      color:blue;
+      margin-left: 100px;  
+      margin-right: 100px;   
+   }
+   strong {
+      background-color: white;
+      color: black;
+   }
+   mark {
+      background-color: rgb(255, 255, 255);
+      color: red;
+   }
+   code {
+      background-color: yellow;
+      color: black;
+   }
+   li, dd, dt{
+      background-color: white;
+      color: black;
+      margin-left: 80pt;
+      margin-right: 100pt;
+      padding: 8px;
+   }
+   b {
+      background-color: white;
+      color: rgb(206, 62, 182);
+   }
+   table {
+      border-collapse: collapse;
+      background-color: white;
+      color: black;  
+      width: 100%;     
+   }
+   caption {
+      background-color: yellow;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5pt 5pt 5pt 5pt;
+   }
+   th, td {
+      border: 1px solid black;
+      padding: 5px;
+   }
+   th.opera, td.opera {
+      text-align: center;
+   }
+   form {
+      background-color: aqua;
+      color: blue;
+      margin-left: 100px;
+      margin-right: 500px;
+   }
+   label {
+      font-size: 25px;
+   }
+   p#obs {
+      background-color: yellow;
+      color: black;
+   }
+   input {
+      border: 1px solid black;
+      padding: 8px;
+   }
+   button {
+      padding: 8px;
+   }
+   button#left {
+      margin-left: 499px;
+   }
